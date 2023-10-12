@@ -1,5 +1,5 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=phpmyadmin';
+    $dsn = 'mysql:host=localhost;dbname=my_guitar_shop1';
    
     $username = 'root';
     $password = '';
@@ -11,3 +11,7 @@
         echo "Myfail" .$e->getMessage();
     }
 ?>
+
+<!-- ON my_guitar_shop1.*
+TO mgs_user@localhost
+IDENTIFIED BY 'pa55word'; -->
